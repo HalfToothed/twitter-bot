@@ -9,17 +9,11 @@ namespace Program
         {
             using var httpClient = new HttpClient();
 
-            // StellarOasis API credentials
-            // string consumerKey = "vJZnkOXyeliNBi8St5Jypy1vA";
-            // string consumerSecret = "oZWELwZ82DqKJXXmwE7eVXZzvQlc9eEIODWixD9i5urQG9tKDa";
-            // string accessToken = "1693999721071931392-OQBzUqs8pio15Z3PaHQMV9UJwjGMR9";
-            // string tokenSecret = "UNZzCb3YcMqxf3mwhtjhIMTYX19XaG1Qrkl2PLZaCbCss";
-
             // RocketWatcher Api credentials
-            string consumerKey = "3JfqfL8fSspOMECPSLpSVnK7z";
-            string consumerSecret = "Ah9l9YaY8u8oJJuajH7PpXZc4UKEIb8IXHM3pj5UciKCGH2haK";
-            string accessToken = "1697685343011524608-AZzzoj26SrKy1BWrIRoVw6zy5wklzJ";
-            string tokenSecret = "oCbQ5ynudmqBTaFhO9owiQzQNayhTQLNlVp4eEA0WebH1";
+            string consumerKey = "API-Key";
+            string consumerSecret = "API-Secret";
+            string accessToken = "Access-Token";
+            string tokenSecret = "Token-Secret";
 
             string response = new string("");
 
